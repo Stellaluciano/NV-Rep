@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "NV-Rep"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Luxuan
+  - family-names: Jiang
+    given-names: Douglas
+  - family-names: Wang
+    given-names: Jaiyi
+  - family-names: Yu
+    given-names: Qiyi
+  - family-names: Tian
+    given-names: Feng
+license: MIT
+repository-code: "https://github.com/<org>/NV-Rep"
+abstract: >
+  NV-Rep is a research framework integrating LLM-derived gene embeddings,
+  biologically informed cell representations, and supervised contrastive
+  learning for neuronal subtype and vulnerability analysis in single-cell
+  transcriptomics.
+keywords:
+  - single-cell transcriptomics
+  - representation learning
+  - contrastive learning
+  - neuronal vulnerability
+  - gene embeddings
