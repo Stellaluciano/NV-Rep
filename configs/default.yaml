@@ -1,0 +1,29 @@
+project:
+  name: NV-Rep
+  stage: documentation_scaffold
+  description: >
+    Documentation-first scaffold for NV-Rep, a framework integrating
+    LLM-derived gene embeddings with contrastive representation learning
+    for single-cell neuronal vulnerability analysis.
+
+data:
+  source: GEO
+  modality: single_cell_rna_seq
+  target_domain: neuronal_subtype_and_vulnerability
+
+method:
+  gene_text_source: NCBI_Gene
+  embedding_backbone: pretrained_LLM_placeholder
+  cell_gene_selection: top_expressed_genes_placeholder
+  views:
+    - full_transcriptome
+    - housekeeping_filtered
+  objective: supervised_contrastive_placeholder
+
+evaluation:
+  metrics:
+    - accuracy
+    - f1
+    - kappa
+    - knn_purity
+  uncertainty: bootstrap_confidence_intervals
