@@ -30,21 +30,21 @@
 
 ```mermaid
 flowchart TD
-    A[scRNA-seq expression matrix] --> B[Top expressed gene selection]
-    B --> C[Gene description retrieval\n(e.g., NCBI Gene)]
-    C --> D[LLM-based gene embedding]
-    D --> E[Cell embedding aggregation]
-    E --> F[Biological view construction]
-    F --> F1[Full transcriptome view]
-    F --> F2[Housekeeping-filtered view]
-    F1 --> G[Supervised contrastive learning]
+    A["scRNA-seq expression matrix"] --> B["Top expressed gene selection"]
+    B --> C["Gene description retrieval (e.g., NCBI Gene)"]
+    C --> D["LLM-based gene embedding"]
+    D --> E["Cell embedding aggregation"]
+    E --> F["Biological view construction"]
+    F --> F1["Full transcriptome view"]
+    F --> F2["Housekeeping-filtered view"]
+    F1 --> G["Supervised contrastive learning"]
     F2 --> G
-    G --> H[Refined cell embedding space]
-    H --> I[Downstream tasks]
-    I --> I1[Cell subtype classification]
-    I --> I2[Label transfer]
-    I --> I3[UMAP visualization]
-    I --> I4[Robustness evaluation]
+    G --> H["Refined cell embedding space"]
+    H --> I["Downstream tasks"]
+    I --> I1["Cell subtype classification"]
+    I --> I2["Label transfer"]
+    I --> I3["UMAP visualization"]
+    I --> I4["Robustness evaluation"]
 ```
 
 ## Repository Structure
@@ -102,7 +102,7 @@ If you use NV-Rep, please cite:
 ```bibtex
 @software{nv_rep_2026,
   title   = {NV-Rep},
-  author  = {Zhang, Luxuan and Jiang, Douglas and Wang, Jaiyi and Yu, Qiyi and Tian, Feng},
+  author  = {Zhang, Luxuan and Jiang, Douglas and Wang, Jiayi and Yu, Qiyi and Nguyen, Laura and Tian, Feng},
   year    = {2026},
   url     = {https://github.com/<org>/NV-Rep}
 }
@@ -112,8 +112,9 @@ If you use NV-Rep, please cite:
 
 - Luxuan Zhang
 - Douglas Jiang
-- Jaiyi Wang
+- Jiayi Wang
 - Qiyi Yu
+- Laura Nguyen
 - Feng Tian
 
 ## License
@@ -122,4 +123,4 @@ This project is released under the MIT License. See [LICENSE](LICENSE).
 
 ## Contact
 
-For collaboration and questions, please open an issue or contact the Feng Tian Lab.
+For collaboration and questions, please open an issue or contact Dr. Feng Tian Lab at Beth Israel Deaconess Medical Center and Harvard Medical School. Lab website: https://fengtianlab.org/
