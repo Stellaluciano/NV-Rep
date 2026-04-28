@@ -108,15 +108,6 @@ If you use NV-Rep, please cite:
 }
 ```
 
-## Major Contributors
-
-- Luxuan Zhang
-- Douglas Jiang
-- Jiayi Wang
-- Qiyi Yu
-- Laura Nguyen
-- Feng Tian
-
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE).
