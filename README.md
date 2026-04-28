@@ -95,19 +95,6 @@ NV-Rep is designed for single-cell RNA-seq datasets with emphasis on neuronal su
 - kNN Purity in embedding space
 - Bootstrap-based confidence intervals for robustness
 
-## Citation
-
-If you use NV-Rep, please cite:
-
-```bibtex
-@software{nv_rep_2026,
-  title   = {NV-Rep},
-  author  = {Zhang, Luxuan and Jiang, Douglas and Wang, Jiayi and Yu, Qiyi and Nguyen, Laura and Tian, Feng},
-  year    = {2026},
-  url     = {https://github.com/<org>/NV-Rep}
-}
-```
-
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE).
