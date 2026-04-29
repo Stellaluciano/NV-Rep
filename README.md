@@ -53,7 +53,6 @@ flowchart TD
 NV-Rep/
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── CODE_OF_CONDUCT.md
