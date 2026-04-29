@@ -23,7 +23,7 @@
 4. Construct two biological views:
    - Full transcriptome-informed view
    - Housekeeping-filtered view
-5. Refine embedding space with supervised contrastive learning.
+5. Refine embedding space with contrastive learning.
 6. Evaluate learned representations on subtype discrimination and vulnerability-oriented tasks.
 
 ## Architecture Diagram (Mermaid)
