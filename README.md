@@ -98,7 +98,3 @@ NV-Rep is designed for single-cell RNA-seq datasets with emphasis on neuronal su
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE).
-
-## Contact
-
-For collaboration and questions, please open an issue or contact Dr. Feng Tian Lab at Beth Israel Deaconess Medical Center and Harvard Medical School. Lab website: https://fengtianlab.org/
